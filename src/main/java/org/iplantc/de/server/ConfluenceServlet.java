@@ -5,9 +5,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Properties;
 import java.util.regex.Matcher;
 
+import javax.servlet.ServletException;
+
 import org.apache.log4j.Logger;
+import org.iplantc.clavin.spring.ConfigAliasResolver;
 import org.iplantc.de.shared.ConfluenceException;
 import org.iplantc.de.shared.services.ConfluenceService;
 import org.swift.common.cli.CliClient.ClientException;
@@ -15,9 +19,6 @@ import org.swift.common.soap.confluence.RemoteComment;
 import org.swift.common.soap.confluence.RemotePage;
 
 import com.google.gwt.user.client.rpc.SerializationException;
-import java.util.Properties;
-import javax.servlet.ServletException;
-import org.iplantc.clavin.spring.ConfigAliasResolver;
 
 /**
  * A service for interfacing with Confluence via SOAP.

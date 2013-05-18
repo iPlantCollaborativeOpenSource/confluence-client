@@ -18,12 +18,12 @@
         <dependency>
             <groupId>org.iplantc.de</groupId>
             <artifactId>de-common</artifactId>
-            <version>1.6.2-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.iplantc.core</groupId>
             <artifactId>clavin-java</artifactId>
-            <version>1.6.2-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
