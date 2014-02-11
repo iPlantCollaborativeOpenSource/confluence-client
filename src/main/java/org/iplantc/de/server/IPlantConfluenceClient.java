@@ -1,8 +1,6 @@
 package org.iplantc.de.server;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.rmi.RemoteException;
+import com.martiansoftware.jsap.JSAP;
 
 import org.apache.log4j.Logger;
 import org.swift.common.soap.confluence.InvalidSessionException;
@@ -10,7 +8,9 @@ import org.swift.common.soap.confluence.RemoteComment;
 import org.swift.common.soap.confluence.RemotePage;
 import org.swift.confluence.cli.ConfluenceClient;
 
-import com.martiansoftware.jsap.JSAP;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.rmi.RemoteException;
 
 /**
  * A subclass of ConfluenceClient that adds methods for adding and updating tool ratings.
