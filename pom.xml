@@ -150,7 +150,7 @@
 		<repository>
 			<id>iplantCollaborative</id>
 			<name>The iPlant Collaborative local repository</name>
-			<url>http://projects.iplantcollaborative.org/archiva/repository/internal/
+			<url>http://katic.iplantcollaborative.org/archiva/repository/internal/
 			</url>
 		</repository>
 	</repositories>
